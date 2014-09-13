@@ -1,0 +1,239 @@
+/*
+ *
+ * Project:	PiratePartyUK Drupal Theme (NWP 2014)
+ * 
+ *
+ * Authors: 	Andy Halsall <a.halsall@pirateparty.org.uk>
+  *		Pirate Party UK
+ * Date:	2014-02-24
+ * Version:	0.9
+ *
+ * Description: CSS for the primary navigation menus for the Pirate Party Drupal Theme
+ *
+ *
+ *
+ * Acknowledgements:
+ *
+ * Based on and developed from Piratenkleider - Wolfgang Wiese (xwolf)
+ * the current Piratenpartei wordpress theme (http://www.piratenkleider.de/)
+ *
+*/
+
+.nav-main {
+  position: absolute;
+  bottom: 0;
+  max-width: 100%;
+}
+
+.nav-main ul.menu {
+  background: #f7f7f7;
+  background: rgba(255, 255, 255, 0.5);
+  float: left;
+
+}
+
+.nav-main ul.menu a {
+  display: block
+}
+
+.nav-main ul.menu a:hover {
+  background: white;
+  z-index: 999;
+}
+
+.nav-main ul.menu li {
+  float: left
+}
+
+.nav-main ul.menu li a {
+ 
+  color: black;
+  font-family: "BebasNeueRegular", Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 21.6px;
+  letter-spacing: 1px;
+  padding: 12px 10px 10px 10px;
+  border-bottom: 0;
+}
+
+.nav-main ul.menu li a:hover,
+.nav-main ul.menu li a.hover {
+  color: #2d7dc5
+}
+
+.nav-main ul.menu li a[title="Home"],
+.nav-main ul.menu li a[href="/"],
+.nav-main ul.menu li.menu-item-home a {
+  padding-left: 25px;
+  padding-right: 25px;
+  text-indent: -999em;
+  background: url("../assets/home.gif") no-repeat center 10px;
+}
+
+.nav-main ul.menu li.current-menu-item > a,
+.nav-main ul.menu li > a.active,
+.nav-main ul.menu li > a.active-trail,
+.nav-main ul.menu li.current-page-item > a,
+.nav-main ul.menu li.current-page-ancestor  > a,
+.nav-main ul.menu li.current-menu-ancestor > a {
+  background: none repeat scroll 0 0 #000;
+  color: white;
+}
+
+.nav-main ul.menu li.current-menu-item:hover ul.sub-menu li.current-menu-item > a,
+.nav-main ul.menu li:hover ul.sub-menu li > a.active,
+.nav-main ul.menu li:hover ul.sub-menu li > a.active-trail,
+.nav-main ul.menu li.current-page-item:hover ul.sub-menu li.current-page-item > a,
+.nav-main ul.menu li.current-page-ancestor:hover ul.sub-menu li.current-page-ancestor > a,
+.nav-main ul.menu li.current-menu-ancestor:hover ul.sub-menu li.current-menu-ancestor > a {
+  background-color: #ccc;
+  color: black;
+}
+
+.nav-main ul.menu li a[title="Home"]:hover,
+.nav-main ul.menu li a[title="Home"].hover,
+.nav-main ul.menu li a[href="/"]:hover,
+.nav-main ul.menu li a[href="/"].hover,
+.nav-main ul.menu li.menu-item-home a:hover,
+.nav-main ul.menu li.menu-item-home a.hover {
+  background: white url("../assets/home.gif") no-repeat center 10px
+}
+
+.nav-main ul.menu li.current_page_item a[title="Home"],
+.nav-main ul.menu li.active a[href="/"],
+.nav-main ul.menu li a[href="/"].active,
+.nav-main ul.menu li.current-menu-item.menu-item-home a {
+  background: #111111 url("../assets/home.gif") no-repeat center -107px
+}
+
+.nav-main ul.menu li.current_page_item a[title="Home"]:hover,
+.nav-main ul.menu li.current_page_item a[title="Home"].hover,
+.nav-main ul.menu li.active a[href="/"]:hover,
+.nav-main ul.menu li.active a[href="/"].hover,
+.nav-main ul.menu li a[href="/"].active:hover,
+.nav-main ul.menu li a[href="/"].active.hover,
+.nav-main ul.menu li.current-menu-item.menu-item-home a:hover,
+.nav-main ul.menu li.current-menu-item.menu-item-home a.hover {
+  background: #111111 url("../assets/home.gif") no-repeat center 10px
+}
+
+.nav-main ul.menu li ul {
+  position: absolute;
+  top: -999em;
+}
+
+.nav-main ul.menu li:hover,
+.nav-main ul.menu li.hover {
+  background: white;
+}
+
+.nav-main ul.menu li:hover ul,
+.nav-main ul.menu li.hover ul {
+  top: 38px;
+  background: white;
+  width: 200px;
+  padding: 5px 0;
+  -moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.nav-main ul.menu li ul li {
+  background: white;
+  color: blue;
+}
+
+.nav-main ul.menu li:hover ul hr,
+.nav-main ul.menu li.hover ul hr {
+  margin: 0
+}
+
+.nav-main ul.menu li:hover ul li,
+.nav-main ul.menu li.hover ul li {
+  float: none;
+  position: relative;
+}
+
+.nav-main ul.menu li:hover ul li a,
+.nav-main ul.menu li.hover ul li a {
+  font-family: Helvetica, Arial, sans-serif;
+  letter-spacing: 0;
+  font-size: 12px;
+  padding: 2px 18px;
+  z-index: 999;
+}
+
+.nav-main ul.menu li:hover ul li ul,
+.nav-main ul.menu li.hover ul li ul {
+  top: -999em
+}
+
+.nav-main ul.menu li ul li a:hover,
+.nav-main ul.menu li ul li.hover a {
+  background: #2d7dc5;
+  color: white;
+}
+
+.nav-main ul.menu li ul li.hover ul li a {
+  background: white;
+  color: black;
+}
+
+.nav-main ul.menu li ul li ul li.hover a {
+  background: #2d7dc5;
+  color: white;
+}
+
+.nav-main ul.menu li:hover ul li.has_children,
+.nav-main ul.menu li.hover ul li.has_children {
+  background: url("../assets/plus_black.gif") center right no-repeat
+}
+
+.nav-main ul.menu li:hover ul li:hover ul li,
+.nav-main ul.menu li.hover ul li.hover ul li {
+  background-image: none
+}
+
+.nav-main ul.menu li:hover ul li:hover ul li.has_children,
+.nav-main ul.menu li.hover ul li.hover ul li.has_children {
+  background: url("../assets/plus_black.gif") center right no-repeat
+}
+
+.nav-main ul.menu li:hover ul li:hover ul li:hover ul li,
+.nav-main ul.menu li.hover ul li.hover ul li.hover ul li {
+  background-image: none
+}
+
+.nav-main ul.menu li:hover ul li:hover ul,
+.nav-main ul.menu li.hover ul li.hover ul {
+  top: -5px;
+  left: 190px;
+}
+
+.nav-main ul.menu li:hover ul li:hover ul li>ul,
+.nav-main ul.menu li.hover ul li.hover ul li>ul {
+  top: -999em
+}
+
+.nav-main ul.menu li:hover ul li:hover ul li:hover ul,
+.nav-main ul.menu li.hover ul li.hover ul li.hover ul {
+  top: 5px;
+  left: 190px;
+}
+
+.nav-main ul.menu li:hover ul li:hover ul li:hover ul li>ul,
+.nav-main ul.menu li.hover ul li.hover ul li.hover ul li>ul {
+  top: -999em
+}
+
+.nav-main ul.menu li:hover ul li:hover ul li:hover ul li:hover ul,
+.nav-main ul.menu li.hover ul li.hover ul li.hover ul li.hover ul {
+  top: 5px;
+  left: 190px;
+}
+
+.nav-main ul.menu li:hover ul li:hover ul li:hover ul li:hover ul li>ul,
+.nav-main ul.menu li.hover ul li.hover ul li.hover ul li.hover ul li>ul {
+  top: -999em
+}
