@@ -1,52 +1,42 @@
-name = Pirate Party Drupal Theme
-description = Pirate Party Theme, based on 'Business' by <a href="http://www.devsaran.com">devsaran.com</a>.
+
+name = PirateParty
+description = PiratePartyUK Drupal Theme (NWP 2014)
+package = Core
+version = 0.9
 core = 7.x
-engine = phptemplate
-stylesheets[all][] = style.css
-scripts[] = js/superfish.js
-scripts[] = js/supersubs.js
-scripts[] = js/sfmenu.js
-;Global Regions
-regions[sidebar_first]  = First Sidebar
-regions[header]         = Header
-regions[homequotes]     = Home Quotes
-regions[home_high1]     = Home Highlight 1
-regions[home_high2]     = Home Highlight 2
-regions[home_high3]     = Home Highlight 3
-regions[content]        = Content
-regions[content_top]    = Content Top
-regions[help]           = Help
-regions[footer]         = Footer
-regions[footer_bottom_left]	= Footer Bottom Left
-regions[footer_bottom_right]	= Footer Bottom Right
-regions[footer_last_left]	= Footer Last Left
-regions[footer_last_right]	= Footer Last Right
-;Area Regions
- ;Campaigns
-   regions[campaigns_mid_left]	= Campaigns Mid Left
-   regions[campaigns_mid_center]	= Campaigns Mid Center
-   regions[campaigns_mid_right]	= Campaigns Mid Right
-   regions[campaigns_bottom_left]	= Campaigns Bottom Left
-   regions[campaigns_bottom_right]	= Campaigns Bottom Right
-features[] = logo
-features[] = name
-features[] = slogan
-features[] = node_user_picture
-features[] = comment_user_picture
-features[] = comment_user_verification
-features[] = favicon
-features[] = main_menu
-features[] = secondary_menu
-settings[footer_copyright]   = 1
-settings[footer_credits]   = 1
-settings[slideshow_display]  = 1
-settings[show_front_content] = 1
-settings[breadcrumbs]  = 1
-settings[slide1_desc]  = "What We Do"
-settings[slide2_desc]  = "Who We Are"
-settings[slide3_desc]  = "Our Service"
-settings[slide1_url]  = "node/1"
-settings[slide2_url]  = "node/2"
-settings[slide3_url]  = "node/3"
 
 
+stylesheets[all][] = css/pirateparty.css
+stylesheets[all][] = css/navigation.css
+stylesheets[print][] = css/print.css
+
+regions[above_content] = recent content
+regions[social] = social media
+regions[content] = main content
+regions[teaserlinks] = teaserlinks
+regions[sidebar_first] = sidebar
+regions[below_content] = below content
+regions[pre-footer] = pre-footer
+regions[footer] = footer
+
+
+settings[pirateparty_teaserlinks] = 1
+settings[pirateparty_teaser1_symbol] = idea
+settings[pirateparty_teaser1_title] = Get informed
+settings[pirateparty_teaser1_subtitle] = About our policies & goals!
+settings[pirateparty_teaser1_url] = /
+
+settings[pirateparty_teaser2_symbol] = heart
+settings[pirateparty_teaser2_title] = Support us
+settings[pirateparty_teaser2_subtitle] = By getting involved!
+settings[pirateparty_teaser2_url] = /
+
+settings[pirateparty_teaser3_symbol] = wheel
+settings[pirateparty_teaser3_title] = Become a Pirate!
+settings[pirateparty_teaser3_subtitle] = Join today!
+settings[pirateparty_teaser3_url] = /
+
+settings[pirateparty_teaser4_symbol] = idea
+settings[pirateparty_teaser4_title] = Get informed
+settings[pirateparty_teaser4_subtitle] = About our policies & goals!
+settings[pirateparty_teaser4_url] = /
