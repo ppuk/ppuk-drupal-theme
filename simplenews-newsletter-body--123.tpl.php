@@ -28,6 +28,6 @@
  */
 ?>
 <h2>Pirate Party Press Release - For Immediate Release</h2>
-<p>You can find Pirate Party press releases online at www.pirateparty.org.uk/press, or contact the press office at press@pirateparty.org.uk or on +44 0161 987 7880.</p>
+<p>You can find Pirate Party press releases online at www.pirateparty.org.uk/press, or contact the press office at press@pirateparty.org.uk or on +44 (0)161 987 7880.</p>
 <h2><?php print $title; ?></h2>
 <?php print render($build); ?>

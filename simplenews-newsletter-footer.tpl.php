@@ -40,13 +40,17 @@
   <?php if ($format == 'html'): ?>
 <p>--</p>
 
-<p>For more information on the Pirate Party UK, please visit our website at http://www.pirateparty.org.uk.  If you wish to receive regular press statements from the Party (or no longer wish to receive them) please email the Press Office at press@pirateparty.org.uk, or unsubscribe below.  The Pirate Party UK is a political party registered at 26 Cleveland Street, Upperthorpe, Sheffield, S6 3JB.</p>
+<p>Like what we do? Help fund us at https://www.pirateparty.org.uk/donation - we rely entirely on donations to make what we do possible! </p>
+
+<p>For more information on the Pirate Party UK, please visit our website at https://www.pirateparty.org.uk.  If you wish to receive regular press statements from the Party (or no longer wish to receive them) please email the Press Office at press@pirateparty.org.uk, or unsubscribe below.  The Pirate Party UK is a political party registered at Studio 202, Islington Mill, James Street, Salford, M3 5HW. </p>
 
 <p>Use the following link to unsubscribe: [simplenews-subscriber:unsubscribe-url]</p>
 <?php else: ?>
 --
 
-For more information on the Pirate Party UK, please visit our website at http://www.pirateparty.org.uk.  If you wish to receive regular press statements from the Party (or no longer wish to receive them) please email the Press Office at press@pirateparty.org.uk or you can unsubscribe using the link below. The Pirate Party UK is a political party registered at 26 Cleveland Street, Upperthorpe, Sheffield, S6 3JB.
+Like what we do? Help fund us at https://www.pirateparty.org.uk/donation - we rely entirely on donations to make what we do possible!
+
+For more information on the Pirate Party UK, please visit our website at https://www.pirateparty.org.uk.  If you wish to receive regular press statements from the Party (or no longer wish to receive them) please email the Press Office at press@pirateparty.org.uk or you can unsubscribe using the link below. The Pirate Party UK is a political party registered at Studio 202, Islington Mill, James Street, Salford, M3 5HW. 
 
 Use the following link to unsubscribe: [simplenews-subscriber:unsubscribe-url]
   <?php endif ?>
